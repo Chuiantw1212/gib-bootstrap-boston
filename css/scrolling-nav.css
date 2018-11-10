@@ -54,6 +54,12 @@ section {
   width: 220px;
   height: 165px;
   margin: 2px;
+  transition: all 0.38s;
+  border: 1px dashed;
+}
+.meal_image:hover{
+  transform: scale(2);
+  z-index: 1;
 }
 @media screen and (min-width:768px) {
   .meal{
@@ -64,3 +70,8 @@ section {
     margin: 1%;
   } */
 }
+/* hover layer */
+/* .fullScreenImage{
+  width: 100vw;
+  height: 75vw;
+} */
