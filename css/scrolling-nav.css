@@ -42,11 +42,25 @@ section {
 
 }
 .meal{
+  
+}
+.meal_images{
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
-
 .meal_image{
   width: 220px;
   height: 165px;
+  margin: 2px;
+}
+@media screen and (min-width:768px) {
+  .meal{
+    /* display: grid;
+    grid-template-columns: auto auto auto auto */
+  }
+  /* .meal_image{
+    margin: 1%;
+  } */
 }
