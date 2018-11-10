@@ -22,8 +22,14 @@ section {
   background-image: url('../img/boston.jpg');
   background-position: center;
   background-size: cover;
-  height: 550px;
+  height: 100vh;
   position: relative;
+}
+.header_bg{
+  position: absolute;
+  top:0;
+  width: 100vw;
+  height: auto;
 }
 .header_body{
   position: absolute;
