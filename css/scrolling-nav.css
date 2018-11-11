@@ -3,6 +3,9 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
  */
+*{
+  font-family: 'Dancing Script', cursive;
+}
 
 header {
   padding: 154px 0 100px;
@@ -28,8 +31,9 @@ section {
 .header_bg{
   position: absolute;
   top:0;
-  width: 100vw;
-  height: auto;
+  /* width: 100vw; */
+  height: 100vh;
+  width: auto;
 }
 .header_body{
   position: absolute;
