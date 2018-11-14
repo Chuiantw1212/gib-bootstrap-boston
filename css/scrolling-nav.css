@@ -3,8 +3,12 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
  */
-*{
+
+* :not(.fontKoo) {
   font-family: 'Dancing Script', cursive;
+}
+.fontKoo{
+  font-family: 'Kumar One Outline', cursive;
 }
 
 header {
@@ -46,24 +50,17 @@ section {
   border-radius: 1rem;
   padding-top: 1rem;
 }
-
-.header_title{
-
-}
-.meal{
-  
-}
-.meal_images{
+/* .meal_images{
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-}
+} */
 .meal_image{
   width: 220px;
   height: 165px;
-  margin: 2px;
   transition: all 0.38s;
+  margin: 2px;
   border: 1px dashed;
 }
 .meal_image:hover{
@@ -84,3 +81,4 @@ section {
   width: 100vw;
   height: 75vw;
 } */
+
