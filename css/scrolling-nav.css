@@ -77,3 +77,26 @@ section {
   height: 330px;
   margin: 4px;
 }
+
+.traffic_body{
+  text-align: center;
+  position: absolute;
+}
+
+.traffic_layer{
+  position: relative;
+}
+
+.traffic_site{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+}
+
+#site_oakgrove{
+  top: 50px;
+  left: 664px;
+  cursor: pointer;
+}
