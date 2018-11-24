@@ -91,12 +91,35 @@ section {
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  background-color: red;
+  /* background-color: red; */
+  border: solid 2px black;
   position: absolute;
 }
 
+.traffic_site:hover .site_layer{
+  visibility: visible;
+}
+
+.traffic_site .site_layer{
+  visibility: hidden;
+  min-width: 200px;
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 15px;
+  left: 10px;
+  font-size: 24px;
+  padding: 5px 10px;
+}
+
 #site_oakgrove{
-  top: 50px;
-  left: 664px;
+  top: 52px;
+  left: 663px;
+  cursor: pointer;
+}
+
+#site_malden{
+  top: 75px;
+  left: 663px;
   cursor: pointer;
 }
