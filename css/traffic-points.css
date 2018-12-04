@@ -13,6 +13,7 @@
 .traffic_body_v2{
   width: 100%;
   position: relative;
+  overflow: hidden;
 }
 
 .traffic_map{
@@ -30,14 +31,16 @@
   position: relative;
 }
 
-.traffic_site{
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-  border: solid 2px black;
-  position: absolute;
-  cursor: pointer;
-  background-color: purple;
+@media (min-width:768px){
+  .traffic_site{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: solid 2px black;
+    position: absolute;
+    cursor: pointer;
+    background-color: purple;
+  }
 }
 
 .traffic_site:hover .site_layer{
