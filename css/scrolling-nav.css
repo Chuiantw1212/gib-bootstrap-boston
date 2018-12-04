@@ -50,6 +50,13 @@ section {
   border-radius: 1rem;
   padding-top: 1rem;
 }
+
+.meal_images{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .meal_image{
   width: 120px;
   height: 90px;
