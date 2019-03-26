@@ -2,7 +2,7 @@
   text-align: center;
   min-width: 100vw;
   min-height: 100vw;
-  background-image: url(../img/map/1007_new-mbta-map.jpg);
+  background-image: url('../img/map/1007_new-mbta-map.jpg');
   margin: 0 auto;
   background-size: contain;
   background-repeat: no-repeat;
